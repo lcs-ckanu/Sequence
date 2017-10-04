@@ -52,11 +52,6 @@ canvas.drawLine(fromX: 0, fromY: 500, toX: 550, toY: 450)
 canvas.fillColor=Color.yellow
 canvas.drawEllipse(centreX: 0, centreY: 500, width: 200, height: 200)
 
-// Draw Cloud
-canvas.fillColor=Color.white
-canvas.drawEllipse(centreX: 450, centreY: 500, width: 150, height: 150, borderWidth: 0)
-
-canvas.drawEllipse(centreX: 500, centreY: 450, width: 150, height: 150, borderWidth: 0)
 
 // Draw sun rays
 canvas.lineColor = Color.yellow
@@ -73,6 +68,10 @@ canvas.drawLine(fromX: 0, fromY: 500, toX: 500, toY: 300)
 canvas.drawLine(fromX: 0, fromY: 500, toX: 500, toY: 400)
 canvas.drawLine(fromX: 0, fromY: 500, toX: 500, toY: 500)
 
+// Draw Cloud
+canvas.fillColor=Color.white
+canvas.drawEllipse(centreX: 450, centreY: 500, width: 150, height: 150, borderWidth: 0)
+canvas.drawEllipse(centreX: 500, centreY: 450, width: 150, height: 150, borderWidth: 0)
 
 // Draw Rainbow
 canvas.fillColor = Color.red
